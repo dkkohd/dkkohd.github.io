@@ -1,10 +1,10 @@
-/*body, input {font-size:14pt}
-input, label {vertical-align:middle}*/
+body, input {font-size:24pt}
+input, label {vertical-align:middle}
 
 .qrcode-text-btn {
   display: inline-block;
-  height: 1.3em;
-  width: 1.3em;
+  height: 1.5em;
+  width: 1.5em;
   background: url(//dab1nmslvvntp.cloudfront.net/wp-content/uploads/2017/07/1499401426qr_icon.svg) 50% 50% no-repeat;
   cursor: pointer;
 }
