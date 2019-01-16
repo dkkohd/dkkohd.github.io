@@ -1,7 +1,7 @@
 .qrcode-text-btn {
   display: inline-block;
-  height: 1em;
-  width: 1em;
+  height: 1.3em;
+  width: 1.3em;
   background: url(//dab1nmslvvntp.cloudfront.net/wp-content/uploads/2017/07/1499401426qr_icon.svg) 50% 50% no-repeat;
   cursor: pointer;
 }
@@ -29,17 +29,3 @@
   margin-left: -1.7em;
   vertical-align: middle;
 }
-
-/*
-.qrcode-text {
-  padding-right: 1.7em;
-  margin-right: 0;
-  vertical-align: middle;
-}
-
-.qrcode-text + .qrcode-text-btn {
-  width: 1.7em;
-  margin-left: -1.7em;
-  vertical-align: middle;
-}
-*/
