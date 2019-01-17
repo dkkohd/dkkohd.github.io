@@ -3,7 +3,8 @@
 
 <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, intial-scale=1, mininum-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
+    <meta name="viewport" content="width=device-width, intial-scale=1, mininum-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no"
+    />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
     <style>
@@ -33,10 +34,10 @@
         <div>
             <button type="button" id="changeCamera">前面／背面 切り替え</button>
         </div>
-        <div style="margin-top: 3em">
+        <!--<div style="margin-top: 3em">
             <p style="font-weight: bold; margin-bottom: 5px">アクティブなカメラ</p>
             <p id="active-camera" style="margin-top: 5px"></p>
-        </div>
+        </div>-->
     </div>
 
     <div id="photo-input" style="display: none">
@@ -166,8 +167,8 @@ window.onload = function() {
 
         activeIndex = index;
         iosRear = !iosRear;
-        var p = document.getElementById('active-camera');
-        p.innerHTML = devices[activeIndex].name + '(' + devices[activeIndex].id + ')';
+        //var p = document.getElementById('active-camera');
+        //p.innerHTML = devices[activeIndex].name + '(' + devices[activeIndex].id + ')';
         setCamera();
     };
 
